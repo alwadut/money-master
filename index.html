@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>money master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="w-9/12 mx-auto mt-5 bg-slate-300 ">
+        <h1 class="text-3xl font-bold text-center my-3 ">Money Master </h1>
+        <div class="grid grid-cols-2 p-2 ">
+            <div>
+                <img src="/money.jpg" alt="">
+            </div>
+            <div class="mx-auto text-center">
+                <h1 class="text-3xl font-bold ">Income</h1>
+                <div class="flex ">
+                    <div>
+                        <h1>Income: </h1>
+                    </div>
+                    <div>
+                        <input id="income" class=" block  " type="text" name="" >
+                    </div>
+                </div>
+                <h1 class=" text-2xl font-bold ">Expence</h1>
+                <div class="flex gap-4">
+                    <div >
+                        <h1 class="my-2">Food</h1>
+                        <h1 class="my-2">Rent</h1>
+                        <h1 class="my-2">Cloths</h1>
+                    </div>
+                    <div>
+                        <input id="food"  class="block my-2" type="text">
+                        <input id="rent"  class="block my-2" type="text">
+                        <input id="cloths" class="block my-2" type="text">
+                    </div>
+                </div>
+                <div class="font-semibold ">
+                    <button id="calculat" class="bg-blue-600 font-semibold px-5 text-white p-2 ">Calculat</button>
+                    <h1 >Total Expenses:<span id="expence">500</span></h1>
+                <h1>balance <span id="balance">4500</span></h1>
+                <div class="flex gap-2 ">
+                    <h1>Save</h1>
+                    <input id="saving-input" class="w-16" type="text">
+                    <h1>%</h1>
+                    <button id="saving" class="bg-blue-600 font-semibold px-5 text-white  ">Save</button>
+                </div>
+                <h1>Saving Acount: <span id="saving-acount">2000</span></h1>
+                <h1>Remaining Balance:<span id="remaining-balance">2500</span></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- js file -->
+
+    <script src="/js/utility.js"></script>
+</body>
+
+</html>
